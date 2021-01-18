@@ -31,5 +31,6 @@ All notable changes to this project are documented in this file.
 - Implement example YARP device `ROSPublisherTestDevice` for understanding the usage of `ROSPublisher`. (https://github.com/dic-iit/bipedal-locomotion-framework/pull/160)
 - Implement `TSID` library. (https://github.com/dic-iit/bipedal-locomotion-framework/pull/167)
 - Implement `ContactDetectors` library. (https://github.com/dic-iit/bipedal-locomotion-framework/pull/142)
+- Implement `LeggedOdometry` class as a part of `FloatingBaseEstimators` library and handle arbitrary contacts in `FloatingBaseEstimator`. (https://github.com/dic-iit/bipedal-locomotion-framework/pull/151)
 
 [Unreleased]: https://github.com/dic-iit/bipedal-locomotion-framework/

@@ -17,9 +17,9 @@ if(FRAMEWORK_COMPILE_Contact)
     add_bipedal_locomotion_library(
     NAME                   ContactDetectors
     SUBDIRECTORIES         tests/ContactDetectors
-    SOURCES                src/ContactDetector.cpp src/SchmittTriggerDetector.cpp
-    PUBLIC_HEADERS         ${H_PREFIX}/ContactDetector.h ${H_PREFIX}/SchmittTriggerDetector.h
-    PUBLIC_LINK_LIBRARIES  BipedalLocomotion::ParametersHandler BipedalLocomotion::System BipedalLocomotion::Contacts)
+    SOURCES                src/ContactDetector.cpp src/SchmittTriggerDetector.cpp src/ContactBayesFilter.cpp
+    PUBLIC_HEADERS         ${H_PREFIX}/ContactDetector.h ${H_PREFIX}/SchmittTriggerDetector.h ${H_PREFIX}/ContactBayesFilter.h
+    PUBLIC_LINK_LIBRARIES  BipedalLocomotion::ParametersHandler BipedalLocomotion::System BipedalLocomotion::Contacts iDynTree::idyntree-core iDynTree::idyntree-model iDynTree::idyntree-solid-shapes)
 endif()
 
 if(FRAMEWORK_COMPILE_FloatingBaseEstimators)

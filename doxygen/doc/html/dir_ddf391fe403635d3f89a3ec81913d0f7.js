@@ -1,4 +1,0 @@
-var dir_ddf391fe403635d3f89a3ec81913d0f7 =
-[
-    [ "Contacts", "dir_57e6714789f5382b0f176540fd7f5521.html", "dir_57e6714789f5382b0f176540fd7f5521" ]
-];
